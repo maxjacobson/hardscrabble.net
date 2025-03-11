@@ -43,7 +43,7 @@ porting my layout from [haml][] to Jekyll.
 
 [that plugin]: https://github.com/scrooloose/syntastic
 [last week]: /2015/ambiguous-use-of-user-defined-command/
-[615 days ago]: https://github.com/hardscrabble/hardscrabble.github.io/commit/2bbe8553e33f53d15dea6ce2384f094f1fbf4228
+[615 days ago]: https://github.com/maxjacobson/hardscrabble.net/commit/2bbe8553e33f53d15dea6ce2384f094f1fbf4228
 [haml]: https://github.com/maxjacobson/beefsteak/blob/4d305dca1d0c25a2bbefa6a4318a7df56f843f1d/views/layout.haml
 
 Probably my moral is: be careful out there! And pay attention to your inklings.

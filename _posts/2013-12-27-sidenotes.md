@@ -60,8 +60,8 @@ Here's what the code looks like[^nostalgia]:
 
 [^nostalgia]: I'm archiving it and not linking to the source either here or on GitHub because it's very liable to change and I want to archive its current state for reference or more likely nostalgia. Actually, I *could* link to the sidenotes.coffee file as it was at *this specific commit*, but I haven't pushed it yet. I was planning to push the footnotes changes *and* this post, together, but now I want to push the changes first. OK I did. If you prefer GitHub's syntax highlighting, the file is [here][ghcoffee]. If you prefer the compiled JavaScript, it's [here][ghjs]. OK, now I can safely remove this sidenotes nonsense later on when I grow tired of it.
 
-[ghcoffee]: https://github.com/hardscrabble/hardscrabble.github.io/blob/aba3d7fe860880cf9bd1ae93b16652b11b5d5177/_coffee/sidenotes.coffee
-[ghjs]: https://github.com/hardscrabble/hardscrabble.github.io/blob/aba3d7fe860880cf9bd1ae93b16652b11b5d5177/js/sidenotes.js
+[ghcoffee]: https://github.com/maxjacobson/hardscrabble.net/blob/aba3d7fe860880cf9bd1ae93b16652b11b5d5177/_coffee/sidenotes.coffee
+[ghjs]: https://github.com/maxjacobson/hardscrabble.net/blob/aba3d7fe860880cf9bd1ae93b16652b11b5d5177/js/sidenotes.js
 
 ```coffee
 $ ->

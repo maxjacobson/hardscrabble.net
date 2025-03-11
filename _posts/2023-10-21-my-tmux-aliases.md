@@ -85,7 +85,7 @@ You can run `tmux list-sessions` to print out a list of the running sessions, pl
 
 ```
 $ tmux list-sessions
-hardscrabble_github_io afd6: 4 windows (created Sat Oct 21 15:06:31 2023) (attached)
+hardscrabble_net afd6: 4 windows (created Sat Oct 21 15:06:31 2023) (attached)
 seasoning 3f2c: 1 windows (created Sat Oct 21 15:06:24 2023)
 ```
 
@@ -98,7 +98,7 @@ If I want to correct the pluralization error of "1 windows"[^4]:
 
 ```
 $ tmux list-sessions -F '#{session_name} (#{session_windows} #{?#{==:#{session_windows},1},window,windows})'
-hardscrabble_github_io afd6 (4 windows)
+hardscrabble_net afd6 (4 windows)
 seasoning 3f2c (1 window)
 ```
 
@@ -110,15 +110,15 @@ If I want to include the session's directory:
 
 ```
 $ tmux list-sessions -F '#{session_name} (#{session_path})'
-hardscrabble_github_io afd6 (/Users/max/src/gh/hardscrabble/hardscrabble.github.io)
+hardscrabble_net afd6 (/Users/max/src/gh/maxjacobson/hardscrabble.net)
 seasoning 3f2c (/Users/max/src/gh/maxjacobson/seasoning)
 
 $ tmux list-sessions -F '#{session_name} (#{d:session_path})'
-hardscrabble_github_io afd6 (/Users/max/src/gh/hardscrabble)
+hardscrabble_net afd6 (/Users/max/src/gh/hardscrabble)
 seasoning 3f2c (/Users/max/src/gh/maxjacobson)
 
 $ tmux list-sessions -F '#{session_name} (#{b:session_path})'
-hardscrabble_github_io afd6 (hardscrabble.github.io)
+hardscrabble_net afd6 (hardscrabble.net)
 seasoning 3f2c (seasoning)
 ```
 
@@ -129,7 +129,7 @@ If I want to scrub out the unsightly trailing hash from the session name:
 
 ```
 $ tmux list-sessions -F '#{s/ [a-f0-9][a-f0-9][a-f0-9][a-f0-9]$//:session_name}'
-hardscrabble_github_io
+hardscrabble_net
 seasoning
 ```
 

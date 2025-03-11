@@ -18,7 +18,7 @@ sharing a faulty script.
 After a little digging, I realized it was worse than that: it was actually my
 RSS feed that was faulty! This commit fixed the problem: [642cd54][2].
 
-[2]: https://github.com/hardscrabble/hardscrabble.github.io/commit/642cd54bf4ea6667d38970049fd47065c610b611
+[2]: https://github.com/maxjacobson/hardscrabble.net/commit/642cd54bf4ea6667d38970049fd47065c610b611
 
 Because I wasn't supplying a time zone in the metadata for the post, Jekyll (my
 blog generator) had to make an assumption, and it assumed UTC, which is

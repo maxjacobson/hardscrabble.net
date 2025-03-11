@@ -56,7 +56,7 @@ There's only one thing that I miss from my days of customization.
 Before I used pure, my prompt looked like:
 
 ```
-hardscrabble.github.io main*
+hardscrabble.net main*
 ```
 
 All on one line.
@@ -74,7 +74,7 @@ _posts main*
 In my days of customization, though, my prompt would have displayed:
 
 ```
-hardscrabble.github.io/_posts main*
+hardscrabble.net/_posts main*
 ```
 
 The idea being that I wanted to know two pieces of information:
@@ -87,7 +87,7 @@ To achieve that, I needed to write [some clumsy, but workable Rust](https://gith
 By contrast, pure displays the absolute path to the working directory:
 
 ```
-~/src/gh/hardscrabble/hardscrabble.github.io/_posts main*
+~/src/gh/maxjacobson/hardscrabble.net/_posts main*
 ❯
 ```
 

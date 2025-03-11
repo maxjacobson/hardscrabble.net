@@ -12,7 +12,7 @@ It's easy enough, you just need something like this in the `<head>`:
 <meta property="og:image" content="https://www.hardscrabble.net/img/preview/2024-10-03-colors.png">
 ```
 
-Because I use [Jekyll](https://jekyllrb.com) to generate my blog, it wasn't too hard to add [a little conditional logic](https://github.com/hardscrabble/hardscrabble.github.io/blob/10561fb935b1a98c96d8abb85a165079fe3c0b5e/_layouts/default.html#L19-L20) that includes that meta element if a post specifies a preview image filename in its [front matter](https://jekyllrb.com/docs/front-matter/).
+Because I use [Jekyll](https://jekyllrb.com) to generate my blog, it wasn't too hard to add [a little conditional logic](https://github.com/maxjacobson/hardscrabble.net/blob/10561fb935b1a98c96d8abb85a165079fe3c0b5e/_layouts/default.html#L19-L20) that includes that meta element if a post specifies a preview image filename in its [front matter](https://jekyllrb.com/docs/front-matter/).
 
 But it's sort of annoying to have to prepare an image whenever you want to blog something. I don't necessarily have time for all that.
 
@@ -110,4 +110,4 @@ Once I figured out how to install imagemagick 7, I had the next issue, which was
 
 And with that... everything was working, and I went to bed, criminally late, having forgotten what I originally had been planning to blog about. I remembered over lunch today and finished [that post](/2024/waitress-colorblind/). And now here's this.
 
-Here's [the commit](https://github.com/hardscrabble/hardscrabble.github.io/commit/019fded4d2627c8ea20c634486df235b5a5b7253) with all of the code, if you're curious. It kind of works.
+Here's [the commit](https://github.com/maxjacobson/hardscrabble.net/commit/019fded4d2627c8ea20c634486df235b5a5b7253) with all of the code, if you're curious. It kind of works.
