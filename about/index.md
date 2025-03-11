@@ -13,7 +13,7 @@ The source is [available to browse][blog-source], for nerds.
 
 [Jekyll]: http://jekyllrb.com/
 [GitHub Pages]: https://pages.github.com/
-[blog-source]: https://github.com/hardscrabble/hardscrabble.github.io
+[blog-source]: https://github.com/maxjacobson/hardscrabble.net
 
 ## Elsewhere...
 
