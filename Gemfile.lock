@@ -102,7 +102,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.6)
+    logger (1.7.0)
     mercenary (0.4.0)
     metrics (0.12.1)
     nokogiri (1.18.4-arm-linux-gnu)
@@ -239,7 +239,7 @@ CHECKSUMS
   lint_roller (1.1.0) sha256=2c0c845b632a7d172cb849cc90c1bce937a28c5c8ccccb50dfd46a485003cc87
   liquid (4.0.4) sha256=4fcfebb1a045e47918388dbb7a0925e7c3893e58d2bd6c3b3c73ec17a2d8fdb3
   listen (3.9.0) sha256=db9e4424e0e5834480385197c139cb6b0ae0ef28cc13310cfd1ca78377d59c67
-  logger (1.6.6) sha256=dd618d24e637715472732e7eed02e33cfbdf56deaad225edd0f1f89d38024017
+  logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
   mercenary (0.4.0) sha256=b25a1e4a59adca88665e08e24acf0af30da5b5d859f7d8f38fba52c28f405138
   metrics (0.12.1) sha256=42ec8eeadb92a57549a72bdd1baf86d4270089bc598917b93cf9cb6f95fcc29c
   nokogiri (1.18.4-arm-linux-gnu) sha256=cc2945e2c19560a61a97737e6bd3b329edb1f82ca204d46a18e5e98ad0a550a6
