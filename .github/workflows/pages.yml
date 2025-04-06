@@ -40,7 +40,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: ".node-version"
-          cache: nnpm
+          cache: npm
       - run: npm ci
       - name: Setup Pages
         id: pages
