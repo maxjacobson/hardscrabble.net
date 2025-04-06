@@ -5,3 +5,4 @@ set -euo pipefail
 rm -rf _site
 rm -rf .jekyll-metadata
 bundle check || bundle install || bundle update
+npm install

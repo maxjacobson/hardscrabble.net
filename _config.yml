@@ -46,7 +46,7 @@ exclude:
   - ".ruby-version"
   - "prettier.config.js"
   - "package.json"
-  - "pnpm-lock.yaml"
+  - "package-lock.json"
   - "node_modules"
   - ".node-version"
 
