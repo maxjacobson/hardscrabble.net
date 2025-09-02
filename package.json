@@ -3,7 +3,7 @@
   "author": "Maxwell Jacobson",
   "license": "UNLICENSED",
   "dependencies": {
-    "pagefind": "^1.2.0",
+    "pagefind": "^1.4.0",
     "prettier": "^3.6.2"
   },
   "scripts": {
