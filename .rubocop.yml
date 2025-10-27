@@ -4,7 +4,7 @@ AllCops:
     - vendor/**/*
     - node_modules/**/*
   NewCops: enable
-  TargetRubyVersion: 3.4.5
+  TargetRubyVersion: 3.4.7
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
