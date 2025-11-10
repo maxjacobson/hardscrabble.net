@@ -2,5 +2,5 @@
 
 set -euo pipefail
 
-exe/setup
+bin/setup
 bin/jekyll serve --watch --drafts --incremental

@@ -41,7 +41,6 @@ exclude:
   - "CNAME"
   - "README.md"
   - "bin"
-  - "exe"
   - ".github"
   - ".ruby-version"
   - "prettier.config.js"

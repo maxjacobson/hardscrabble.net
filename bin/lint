@@ -4,7 +4,6 @@ set -euo pipefail
 
 PATH="node_modules/.bin:$PATH"
 PATH="bin:$PATH"
-PATH="exe:$PATH"
 
 check-responsive-video-embeds
 build

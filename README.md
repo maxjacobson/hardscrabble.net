@@ -7,13 +7,13 @@ my personal site. powered by [jekyll](http://jekyllrb.com/) and hosted on
 
 (note to self)
 
-* Run `exe/serve` to generate (and watch for changes then recompile)
+* Run `bin/serve` to generate (and watch for changes then recompile)
 * visit <http://localhost:1234>
 
 ## publishing a new post
 
-* run `exe/new my great post` to create a draft file.
-* run `exe/publish _drafts/my-great-post.md` to move that file into the `_posts`
+* run `bin/new my great post` to create a draft file.
+* run `bin/publish _drafts/my-great-post.md` to move that file into the `_posts`
 directory and add the current timestamp
 
 ## adding a podcast episode

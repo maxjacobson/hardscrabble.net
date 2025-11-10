@@ -13,7 +13,7 @@ In 2015, I wrote a blog post called [some helpful tmux aliases](/2015/some-helpf
 When I'm working on a project, I usually need a bunch of separate shells.
 Right now, as I work on this blog post, I'm using three:
 1. One to run my text editor, vim, where I'm writing these words
-1. Another to run my `exe/serve` helper script which runs the jekyll server, so I can preview the blog post in a browser and make sure it looks right
+1. Another to run my `bin/serve` helper script which runs the jekyll server, so I can preview the blog post in a browser and make sure it looks right
 1. Another for miscellaneous use, like running git operations to commit the changes or using ripgrep to search the project for references to things I've blogged about already
 
 It would be fine and reasonable to just open three separate windows or tabs in my terminal emulator to run those various things, but instead I use [tmux](https://github.com/tmux/tmux). I basically never have more than one actual tab or window, even when I'm bouncing between multiple projects, because my tmux workflow makes that unnecessary.
