@@ -1,44 +1,57 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: "Bevan";
+  src: url("/fonts/Bevan-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bevan";
+  src: url("/fonts/Bevan-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
 :root {
-  --charcoal: #403c38;
-  --light-highlight-salmon: #eab4ad;
-  --dark-mint: #248165;
-  --lightcoral: #f08080;
+  --charcoal: #000;
+  --light-highlight-salmon: #e5e7eb;
+  --dark-mint: #0d9488;
+  --sunset: #ff6b35;
+  --bright-sunset: #ff8560;
   --black: #000;
   --white: #fff;
-  --highlight: #ff6a00;
-  --yellow-foam: #f2d8b2;
+  --highlight: var(--sunset);
+  --yellow-foam: #fafaf8;
+  --cream-dark: #f0ede9;
 }
 
-.post .footnotes,
-header,
-footer {
-  margin: 20px 0;
-}
-
-.post-post-cta,
-.post .footnotes,
-footer {
+.post .footnotes {
   border-top: dashed var(--black) 3px;
   padding-top: 20px;
+  margin-top: 20px;
 }
 
 header {
-  border-bottom: dashed var(--black) 3px;
-  padding-bottom: 20px;
+  background-color: var(--cream-dark);
+  padding: 20px;
+  margin: 0 0 20px calc(-50vw + 50%);
+  width: 100vw;
+  text-align: center;
 }
 
 body {
   background-color: var(--yellow-foam);
   color: var(--charcoal);
-  margin: 0 auto;
+  margin: 0 auto 25px;
   width: 95%;
 }
 
 @media (min-width: 650px) {
   body {
     width: 650px;
+    margin: 0 auto 25px;
   }
 }
 footer div {
@@ -47,17 +60,45 @@ footer div {
 
 header h1 {
   margin: 0;
+  font-family: "Bevan", serif;
+  font-size: 2.5em;
+  letter-spacing: -0.02em;
 }
 header h1 a {
   color: var(--charcoal);
+  text-decoration: none;
+}
+
+.header-nav {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.header-nav a {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  color: var(--dark-mint);
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.header-nav a:hover {
+  color: var(--sunset);
+}
+
+.header-nav i {
+  font-size: 1.25em;
 }
 
 a {
   color: var(--dark-mint);
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
-  color: var(--lightcoral);
+  color: var(--sunset);
 }
 
 img {
@@ -116,6 +157,7 @@ table {
 th {
   border: 1px dashed black;
   padding: 8px;
+  background-color: var(--light-highlight-salmon);
 }
 
 td {
@@ -124,25 +166,8 @@ td {
   padding: 8px;
 }
 
-th {
-  background-color: var(--light-highlight-salmon);
-}
-
-.fancy {
-  border: 0;
-  color: var(--black);
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-.fancy::after {
-  content: "⠛ ⠛ ⠛";
-  position: relative;
-  top: -0.5em;
-}
-
 kbd {
-  background-color: white;
+  background-color: var(--white);
   padding: 4px 8px;
   border-radius: 4px;
   font-family: monospace;
@@ -157,39 +182,22 @@ kbd {
 }
 
 .category-label {
-  background-color: rgb(245.3873239437, 173.6126760563, 173.6126760563);
+  background-color: var(--sunset);
   border-radius: 5px;
   font-size: 75%;
   padding: 2px 5px;
+  color: var(--white);
+  font-weight: bold;
+}
+a:has(.category-label) {
+  text-decoration: none;
+}
+a:has(.category-label):hover .category-label {
+  background-color: var(--bright-sunset);
 }
 
 .archive li {
   margin-bottom: 5px;
-}
-
-.homepage-post-container:not(:first-child)::before {
-  content: "~ 🍫 ~";
-  display: block;
-  text-align: center;
-  padding: 20px 0;
-}
-.homepage-post-container h1 {
-  margin: 0;
-}
-
-.pagination {
-  margin: 20px 0;
-  display: flex;
-  justify-content: space-between;
-}
-.pagination a {
-  padding: 4px;
-  background-color: #e6b3df;
-  border-radius: 4px;
-  border: 1px solid black;
-}
-.pagination a:hover {
-  background-color: #bd00a7;
 }
 
 .post {
@@ -204,10 +212,6 @@ kbd {
 }
 .post .footnotes {
   padding: 5px;
-}
-
-.post-post-cta {
-  margin-top: 200px;
 }
 
 .podcast-meta {
@@ -247,10 +251,26 @@ kbd {
   height: 100%;
 }
 
-.about-elsewhere a {
-  font-size: 75px;
-  text-decoration: none;
+.about-elsewhere {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
 }
-.about-elsewhere a + a {
-  margin-left: 15px;
+
+.about-elsewhere a {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  color: var(--dark-mint);
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.about-elsewhere a:hover {
+  color: var(--sunset);
+}
+
+.about-elsewhere i {
+  font-size: 1.5em;
 }

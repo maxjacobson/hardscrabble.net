@@ -15,9 +15,9 @@ class GeneratePreview
 
     cmd = <<~CMD.chomp
       magick \
-        -background "#f2d8b2" \
+        -background "#f0ede9" \
         -font "#{font}" \
-        -fill "#248165" \
+        -fill "#0d9488" \
         -size 1200x630 \
         -gravity SouthWest \
         "caption:#{Shellwords.shellescape title}" \
