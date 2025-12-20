@@ -13,14 +13,22 @@ class GeneratePreview
 
     font = ENV["OPENGRAPH_FONT"] || "Helvetica"
 
+    # Color palette
+    charcoal = "#000"
+    sunset = "#ff6b35"
+    yellow_foam = "#fafaf8"
+
+    # Random angle between -60 and 60 degrees for variety
+    angle = rand(-60..60)
+
     cmd = <<~CMD.chomp
       magick \
-        -background "#f0ede9" \
-        -font "#{font}" \
-        -fill "#0d9488" \
-        -size 1200x630 \
-        -gravity SouthWest \
-        "caption:#{Shellwords.shellescape title}" \
+        -size 1200x630 gradient:"#{sunset}"-"#{yellow_foam}" \
+        -rotate #{angle} \
+        -crop 1200x630+0+0 +repage \
+        \\( -background none -font "#{font}" -fill "#{charcoal}" -size 1100x480 -gravity SouthWest "caption:#{Shellwords.shellescape title}" \\) \
+        -gravity center -composite \
+        -font "#{font}" -fill "#{sunset}" -pointsize 30 -gravity SouthWest -annotate +30+30 "hardscrabble.net" \
         tmp/#{path}
     CMD
 
