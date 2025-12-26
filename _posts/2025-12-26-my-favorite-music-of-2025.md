@@ -133,6 +133,12 @@ So here's what I listened to this year, in no particular order. Mostly 2025 rele
   single from their new album from this year, [Elderberry Wine](https://www.youtube.com/watch?v=uE0waEdE2Pw), which
   hardly sounds like the same band, but they've got range, and which Wednesday you're gonna get depends on the day of
   the week.
+- [**Dan Hardin - Romeo and Juliet**](https://www.youtube.com/watch?v=AMnDzN1mIjE) -- This was uploaded to YouTube in
+  2007 and it looks like it. This is a Dire Straits cover and it's one of my favorite covers. A few years ago I thought
+  of it and tried to find it and was sad to learn that Hardin had made all of his videos private to protest YouTube
+  running ads on them (I think?). I happened to think of it again today and was delighted to see that he'd made them
+  public again. What a perfect song. A Christmas miracle. This time I [downloaded](https://github.com/yt-dlp/yt-dlp) it.
+  It's only 10mb.
 
 This is a very random assortment of recommendations but I hope you found something to like here. Those are the
 highlights. Bon voyage, 2025.
