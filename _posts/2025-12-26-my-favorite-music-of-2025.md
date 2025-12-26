@@ -139,8 +139,10 @@ highlights. Bon voyage, 2025.
 
 
 [^1]: "My previous career was as vocalist for the indie/punk me with out You. Over two decades and 1,400+ shows, I made my living flailing around shouting about things I found important. It was an extremely cool job, but I traded it for the only cooler job I can imagine: teaching anthropology. In that role I continue–a bit more quietly–doing what I did as a lyricist, i.e., to explore big questions in small ways: What has it meant, across time and space, to be human? Where does nature end and culture begin? What is ‘the self,’ and how does it shape our view of reality? What for our species makes life worth living? What sets us apart from the non-human world, from each other? What binds us together?"
+
 [^2]: I did just go on a tangent and spend $60.97 to buy a 20 page pdf of his first published paper. I read the first
     few sections before coming up for breath and resolving to finish this blog post first.
+
 [^3]: Frontman Dunn, who went to my high school, has had such an interesting career! Indie rock to web dev to [pizza
     chef](https://billypenn.com/2023/11/01/eeva-philadelphia-bakery-pizzeria-closing-reanimator-local80/) back to indoe
     rock!?
