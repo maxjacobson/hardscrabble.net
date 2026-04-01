@@ -41,7 +41,7 @@ jobs:
         with:
           node-version-file: ".node-version"
           cache: npm
-      - run: npm ci
+      - run: corepack npm ci
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
