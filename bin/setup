@@ -6,3 +6,4 @@ rm -rf _site
 rm -rf .jekyll-metadata
 bundle check || bundle install || bundle update
 corepack npm install
+git config core.hooksPath .git-hooks
