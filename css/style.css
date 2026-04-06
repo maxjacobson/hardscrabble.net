@@ -73,7 +73,7 @@ header h1 a {
   display: flex;
   gap: 2em;
   justify-content: center;
-  margin-top: 15px;
+  margin: 15px 0;
 }
 
 .header-nav a {
