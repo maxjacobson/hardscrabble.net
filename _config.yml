@@ -48,6 +48,7 @@ exclude:
   - "package-lock.json"
   - "node_modules"
   - ".node-version"
+  - "tmp"
 
 markdown: kramdown
 
