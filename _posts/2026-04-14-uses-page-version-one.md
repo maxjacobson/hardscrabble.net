@@ -1,7 +1,7 @@
 ---
 title: Uses page, version one
 date: 2026-04-14 18:16
-category: tk
+category: personal computing
 ---
 
 
