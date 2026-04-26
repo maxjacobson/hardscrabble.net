@@ -93,7 +93,7 @@ This is a pretty good option! Now you can just use `bin/rspec` and trust that it
 
 Of course, it still sucks that you need to rebuild _all_ of your assets every time you run _any_ test.
 
-And even worse: if you do happen to run `bin/rails spec`, now you're rebuiling _all_ of your assets _twice_, once from your custom hook and once from the `test:prepare` enhancements.
+And even worse: if you do happen to run `bin/rails spec`, now you're rebuilding _all_ of your assets _twice_, once from your custom hook and once from the `test:prepare` enhancements.
 
 This is actually pretty close to where I've landed in my project. I've zhuzhed it up a little by adding some logic which tries to determine whether re-running is actually necessary:
 
@@ -184,6 +184,8 @@ end
 ```
 
 The goal with this code is to list out the tasks that need to run at the top of the test suite. For each task, we give it a name, a command, and inputs. The inputs are all of the files that, if any of them change, we should rerun the task just to be safe. Then, we'll make a hash of all of those inputs and write it to a temp file (`./tmp/cache/auto-compile-css` or `./tmp/cache/auto-compile-js`) and we'll run the command. The next time, we'll recompute the hash and compare it to the tempfile; if it matches, no need to rebuild the assets. If you ever want to force the assets to rebuild, you can just remove those tempfiles by running `rm tmp/cache/auto-compile-*`.
+
+If you're using the terrific [parallel_tests gem](https://github.com/grosser/parallel_tests) to run your tests in parallel, it's important to only automatically build your assets in one of the parallel processes and not all of them. To achieve that, we can have the first process take on the job of building the assets, and have the other processes spin their wheels and wait for the build to finish before proceeding to running specs.
 
 This is a bit of extra complexity, but I think it's worth it if your assets are a bit slow to build.
 
