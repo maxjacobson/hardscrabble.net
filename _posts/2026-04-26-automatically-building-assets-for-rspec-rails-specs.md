@@ -26,7 +26,7 @@ It's also important that, when those system specs run, those front-end assets ar
 
 So how to avoid these annoying and confusing situations?
 
-One option is to consider _how_ you're running RSpec. Let's think about the difference between these different ways to run an RSpec test suite:
+One factor is to consider _how_ you're running RSpec. Let's think about the difference between these different ways to run an RSpec test suite:
 
 ```
 $ bin/rspec
