@@ -4,7 +4,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "pagefind": "^1.5.2",
-    "prettier": "^3.8.4"
+    "prettier": "^3.9.6"
   },
   "scripts": {
     "pagefind:build": "pagefind --site _site --silent"
