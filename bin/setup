@@ -5,5 +5,8 @@ set -euo pipefail
 rm -rf _site
 rm -rf .jekyll-metadata
 bundle check || bundle install || bundle update
+if ! command -v corepack >/dev/null; then
+  npm install -g corepack
+fi
 corepack npm install
 git config core.hooksPath .git-hooks
