@@ -54,8 +54,9 @@ jobs:
       - name: Setup imagemagick
         run: |
           sudo apt-get install -y libfuse2 gsfonts
-          sudo wget --quiet https://imagemagick.org/archive/binaries/magick -O /usr/bin/magick
-          sudo chmod +x /usr/bin/magick
+          sudo wget --quiet https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-31/ImageMagick-7.1.2-31-gcc-x86_64.AppImage -O /usr/local/bin/magick
+          sudo chmod +x /usr/local/bin/magick
+          magick -version
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: |
