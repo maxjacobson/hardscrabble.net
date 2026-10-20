@@ -6,7 +6,7 @@ GEM
       public_suffix (>= 2.0.2, < 8.0)
     afm (1.0.0)
     ast (2.4.3)
-    async (2.45.1)
+    async (2.46.0)
       console (~> 1.29)
       fiber-annotation
       io-event (~> 1.21)
@@ -15,7 +15,7 @@ GEM
     bigdecimal (3.3.1)
     colorator (1.1.0)
     concurrent-ruby (1.3.8)
-    console (1.37.0)
+    console (1.38.0)
       fiber-annotation
       fiber-local (~> 1.1)
       json
@@ -46,7 +46,7 @@ GEM
       bigdecimal
       rake (~> 13.3)
     hashery (2.1.2)
-    html-proofer (5.2.2)
+    html-proofer (5.2.3)
       addressable (~> 2.3)
       async (~> 2.1)
       benchmark (~> 0.5)
@@ -59,7 +59,7 @@ GEM
     http_parser.rb (0.8.1)
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
-    io-event (1.21.1)
+    io-event (1.22.3)
     jekyll (4.4.1)
       addressable (~> 2.4)
       base64 (~> 0.2)
@@ -194,14 +194,14 @@ CHECKSUMS
   addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
   afm (1.0.0) sha256=5bd4d6f6241e7014ef090985ec6f4c3e9745f6de0828ddd58bc1efdd138f4545
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
-  async (2.45.1) sha256=95849f7432eca535146c69f3078dab3c7228d0075ed71f48733f3e585dd7c267
+  async (2.46.0) sha256=34f984733dbf63a997376346451ec995e858cacc3105e86ccfeaf8877b4f490b
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
   benchmark (0.5.0) sha256=465df122341aedcb81a2a24b4d3bd19b6c67c1530713fd533f3ff034e419236c
   bigdecimal (3.3.1) sha256=eaa01e228be54c4f9f53bf3cc34fe3d5e845c31963e7fcc5bedb05a4e7d52218
   bundler (4.0.22) sha256=d8d5ec84c8555e0af71db63ed7aee4d1a8fb839ec46d84212d61979242a5d75a
   colorator (1.1.0) sha256=e2f85daf57af47d740db2a32191d1bdfb0f6503a0dfbc8327d0c9154d5ddfc38
   concurrent-ruby (1.3.8) sha256=b2f1be836e968ccc78ccfce277ea79c72a88633f22306782c16ff23fb415d1e1
-  console (1.37.0) sha256=8093b286c2595a063849c098594fee5155ecc7967d36f3aa8cbe7569c8f3efd7
+  console (1.38.0) sha256=35b82f59130e95e9be6b832d9e539c8b3988fc192e4a8e9a86ab4922f44ad5de
   csv (3.3.6) sha256=aba61e7e507a66f03d45cb1f3c4b6359861c3504038b422962875dce099e4456
   em-websocket (0.5.3) sha256=f56a92bde4e6cb879256d58ee31f124181f68f8887bd14d53d5d9a292758c6a8
   ethon (0.18.0) sha256=b598afc9f30448cb068b850714b7d6948e941476095d04f90a4ac65b8d6efcb2
@@ -218,10 +218,10 @@ CHECKSUMS
   google-protobuf (4.36.2-arm64-darwin) sha256=f70d810e6bbab9d8ad9c1d5fd685a21de4c10ad3ad32efb9455e17e5b1286917
   google-protobuf (4.36.2-x86_64-linux-gnu) sha256=d25a820873e423f1d209ae8c672a4a28b019e2429debd0901d26670a0b4e14db
   hashery (2.1.2) sha256=d239cc2310401903f6b79d458c2bbef5bf74c46f3f974ae9c1061fb74a404862
-  html-proofer (5.2.2) sha256=6e5e63c89ef9413246eeffaeba8dd03db62546992d7a2b85d166ac2a5903a241
+  html-proofer (5.2.3) sha256=49681cd0a4a6b1acb424851fdf1062eb6c8beb8910cd21f4001da70cd01c899e
   http_parser.rb (0.8.1) sha256=9ae8df145b39aa5398b2f90090d651c67bd8e2ebfe4507c966579f641e11097a
   i18n (1.15.2) sha256=00f9eb62412fe593b2a65a97daa75300d37abb8f7202ec748e94b6d46a9dd1b5
-  io-event (1.21.1) sha256=b3088f89ad67edf9be9fc2f48a5fae0790e92862487551eeb337b49098eb99e6
+  io-event (1.22.3) sha256=1b12f144898bd36b689ee1e0898750fc04adf039188c7e24a05f21fa63cc6adb
   jekyll (4.4.1) sha256=4c1144d857a5b2b80d45b8cf5138289579a9f8136aadfa6dd684b31fe2bc18c1
   jekyll-archives (2.3.0) sha256=2dbd8ce22212fbace81fe2c9aa4152a6e21c748bcc626f135af5acfd813375f6
   jekyll-feed (0.18.0) sha256=8e6829f455b8764a8fa1bbb198d0ebb3525128dacc6ffe9d15f4df7388bc3647
