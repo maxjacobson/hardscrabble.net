@@ -7,7 +7,7 @@ workflows:
         - 'actions/cache@v6.1.0'
         - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.1.0'
-        - 'ruby/setup-ruby@v1.338.0'
+        - 'ruby/setup-ruby@v1.343.0'
     '.github/workflows/pages.yml':
         - 'actions/cache@v6.1.0'
         - 'actions/checkout@v7.0.1'
@@ -15,7 +15,7 @@ workflows:
         - 'actions/deploy-pages@v5.0.1'
         - 'actions/setup-node@v7.1.0'
         - 'actions/upload-pages-artifact@v5.0.0'
-        - 'ruby/setup-ruby@v1.338.0'
+        - 'ruby/setup-ruby@v1.343.0'
     '.github/workflows/verify-lockfile.yml':
         - 'actions/checkout@v7.0.1'
 dependencies:
@@ -56,8 +56,8 @@ dependencies:
         repo_id: 496012378
         uses:
             - 'actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f'
-    'ruby/setup-ruby@v1.338.0':
-        ref: 'v1.338.0'
-        commit: 'sha1-b3aaceaef7e0ee231b499e7b5f49c03fc1d32199'
+    'ruby/setup-ruby@v1.343.0':
+        ref: 'v1.343.0'
+        commit: 'sha1-be3c7df29b3349ec6bcfc6b4792f1cf9f5237d18'
         owner_id: 210414
         repo_id: 231208785
